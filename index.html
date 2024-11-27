@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>googleform</title>
+    <style>
+        body{
+            margin:20px;
+            width: 400px;
+            margin: auto;
+            background:white;
+            padding:20px;
+        }
+    </style>
+</head>
+<body style="background-image:url('https://sp.yimg.com/ib/th?&id=ODL.c92d8eb0575f1d563f0a411e60fbb0d1&w=116&h=146&c=4&dpr=2&rs=1');background-repeat:no repeat;background-size:cover;">
+<h1 style="color:black;text-align:center;">SURVEY FORM</h1>
+<div style="width:600px;height:600px;background-color:aliceblue;">
+<h3 style="color:blueviolet;text-align:center;">let us know how we can improve</h3>
+<form>
+    <label>.Name:</label>
+    <input type="text" required placeholder="enter your name"><br><br>
+    <label>Email:</label>
+    <input type="Email" required placeholder="Enter your email"><br><br>
+    <label>Age:</label>
+    <input type="text" required placeholder="age"><br><br>
+    <input type="file"><br><br>
+    <label>Which option best describe your current role?</label>
+    <select>
+        <option value="student">Student</option>
+        <option value="professional">professional</option>
+        <option value="others">others</option>
+    </select><br><br>
+    <label>How likely is that you would recommend this program to a friend?</label><br>
+    <input type="radio" name="How likely is that you would recommend this program to a friend?" value="definitely">
+    <label>Definitely</label><br>
+    <input type="radio"  name="How likely is that you would recommend this program to a friend?" value="may be">
+    <label>may be</label><br>
+    <input type="radio" name="How likely is that you would recommend this program to a friend?" value="not sure">
+    <label>not sure</label><br><br>
+    <label>What do you like most here:</label>
+    <select>
+        <option value="designing">designing</option>
+        <option value="developing">developing</option>
+        <option value=""selected disabled>select an option</option>
+        
+    </select><br><br>
+    <labeL>Things that should be improved in the future<br>(check all that apply):</labeL><br>
+    <input value="front end project"  name="things that should be improved in the future(check all that apply)"type="checkbox">
+    <label>front end project</label><br>
+    <input type="checkbox" name="Things that should be improved in the future(check all that apply)" value="back end project">
+    <label>back end project</label><br>
+    <input type="checkbox" name="Things that should be improved in the future(check all that apply)" value="Data visualization">
+    <label>data visualization</label><br><br>
+    <label>Any comment or sugggestions?:</label>
+    <textarea  placeholder="enter  your comments here.."></textarea><br><br>
+    <button>submit</button>
+</form>
+
+
+
+</div>
+</body>
+</html>
