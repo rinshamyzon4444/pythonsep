@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>googleform</title>
+    <link rel="stylesheet" href="index.css">
     <style>
         body{
             margin:20px;
@@ -14,52 +15,65 @@
         }
     </style>
 </head>
-<body style="background-image:url('https://sp.yimg.com/ib/th?&id=ODL.c92d8eb0575f1d563f0a411e60fbb0d1&w=116&h=146&c=4&dpr=2&rs=1');background-repeat:no repeat;background-size:cover;">
-<h1 style="color:black;text-align:center;">SURVEY FORM</h1>
-<div style="width:600px;height:600px;background-color:aliceblue;">
-<h3 style="color:blueviolet;text-align:center;">let us know how we can improve</h3>
-<form>
-    <label>.Name:</label>
-    <input type="text" required placeholder="enter your name"><br><br>
-    <label>Email:</label>
-    <input type="Email" required placeholder="Enter your email"><br><br>
-    <label>Age:</label>
-    <input type="text" required placeholder="age"><br><br>
-    <input type="file"><br><br>
-    <label>Which option best describe your current role?</label>
-    <select>
-        <option value="student">Student</option>
-        <option value="professional">professional</option>
-        <option value="others">others</option>
-    </select><br><br>
-    <label>How likely is that you would recommend this program to a friend?</label><br>
-    <input type="radio" name="How likely is that you would recommend this program to a friend?" value="definitely">
-    <label>Definitely</label><br>
-    <input type="radio"  name="How likely is that you would recommend this program to a friend?" value="may be">
-    <label>may be</label><br>
-    <input type="radio" name="How likely is that you would recommend this program to a friend?" value="not sure">
-    <label>not sure</label><br><br>
-    <label>What do you like most here:</label>
-    <select>
-        <option value="designing">designing</option>
-        <option value="developing">developing</option>
-        <option value=""selected disabled>select an option</option>
-        
-    </select><br><br>
-    <labeL>Things that should be improved in the future<br>(check all that apply):</labeL><br>
-    <input value="front end project"  name="things that should be improved in the future(check all that apply)"type="checkbox">
-    <label>front end project</label><br>
-    <input type="checkbox" name="Things that should be improved in the future(check all that apply)" value="back end project">
-    <label>back end project</label><br>
-    <input type="checkbox" name="Things that should be improved in the future(check all that apply)" value="Data visualization">
-    <label>data visualization</label><br><br>
-    <label>Any comment or sugggestions?:</label>
-    <textarea  placeholder="enter  your comments here.."></textarea><br><br>
-    <button>submit</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="styles.css">
 
+</head>
+<body style="background-image: url('img.jpeg');background-repeat: no-repeat;background-size: cover;background-position: center;">
 
-
-</div>
+    <center><h1 style="color:blueviolet;padding-top: 20px;">SURVEY FORM</h1></center>
+         <div class="first-div">
+            <p style="text-align:center;color:grey;padding-top:25px;">Let us know how we can improve</p>
+            <form style="padding:5px;text-align:center;padding-top:20px;color:rgb(85, 85, 85)"><div class="innerdiv">
+                    <label>Name:</label><br><br>
+                    <label>Email</label><br><br>c
+                    <label>Age:</label><br><br><br><br><br><br>
+                    <label>Which option best describes your current role?</label><br><br>
+                    <label>How likely is that you would recommend this program to a friend?</label><br><br><br>
+                    <label>What do yoy like most here?</label><br><br>
+                    <label>Things that should be improved in the future
+                        (check all that apply):</label><br><br><br>
+                    <label>Any comments or suggestions?</label>
+                </div>
+                <div class="innerdiv2">
+                    <input type="text" placeholder="Enter your name"><br><br>
+                    <input type="email:" placeholder="Enter your email"><br><br>
+                    <input type="number" placeholder="Age"><br><br>
+                    <input type="file"><br><br><br>
+                    <select>
+                        <option value="Student">Student</option>
+                        <option value="Employee">Employee</option>
+                        <option value="HR">HR</option>
+                    </select><br><br>
+                    <input type="radio" name="rec" value="definitely">
+                    <label>Definitely</label><br>
+                    <input type="radio" name="rec" value="Maybe">
+                    <label>Maybe</label><br>
+                    <input type="radio" name="rec" value="Not sure">
+                    <label>Not sure</label><br><br>
+                    <select>
+                    <option value="Staffs">Staffs</option>
+                    <option value="Atmosphere">Atmosphere</option>
+                    <option value="Service">Service</option>
+                    <option value="" selected disabled>Select an option</option>
+                    </select><br><br>
+                    <input type="radio" name="improve" value="Front-end projects">
+                    <label>Front-end projects</label><br>
+                    <input type="radio" name="improve" value="Back-end projects">
+                    <label>Back-end projects</label><br>
+                    <input type="radio" name="improve" value="Data visualization">
+                    <label>Data visualization</label><br><br>
+                    <textarea cols="30" rows="4" placeholder="Enter your comment here..."></textarea><br><br>
+                </div>
+            </form>
+            <div style="text-align:center;">
+                <button>Submit</button>
+            </div>
+         </div>
 </body>
 </html>
